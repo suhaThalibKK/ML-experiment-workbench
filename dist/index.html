@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1e4fb6">
+<meta name="description" content="ML Lab Companion helps learners and instructors explore eight machine learning experiments. Learn from visual walkthroughs and previous-year questions, explore verified outputs and inspect complete Python programs.">
+<title>ML Lab Companion · Learn, Experiment, Solve</title>
+<link rel="icon" href="assets/favicon.svg?v=brand1" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css?v=brand1">
+</head>
+<body>
+<a href="#workspace" class="skip-link">Skip to experiment</a>
+<aside class="sidebar" aria-label="Lab navigation">
+  <a class="brand" href="#experiment=1&tab=learn" aria-label="ML Lab Companion home"><span class="brand-mark">ML</span><span>ML Lab Companion<span class="brand-sub">LEARN · EXPERIMENT · SOLVE</span></span></a>
+  <div class="sidebar-divider"></div>
+  <div class="nav-caption">EXPERIMENTS <span>08</span></div>
+  <nav id="experiment-nav" aria-label="Experiments"><p class="loading-label">Loading experiments…</p></nav>
+  <div class="sidebar-bottom">
+    <div class="nav-caption">LAB RESOURCES</div>
+    <a class="resource-link" href="assets/Computing_Lab1_Record.pdf" target="_blank" rel="noopener"><span class="resource-icon">↗</span> Printable lab record <span>PDF</span></a>
+    <a class="resource-link" href="assets/Computing_Lab1.ipynb" download><span class="resource-icon">⌘</span> Colab notebook <span>IPYNB</span></a>
+    <a class="resource-link" href="assets/Computing_Lab1_Programs.zip" download><span class="resource-icon">↓</span> Programs & datasets <span>ZIP</span></a>
+    <div class="verified-note"><span class="status-dot"></span><div>All 8 programs verified<span>Captured from successful Python runs</span></div></div>
+  </div>
+</aside>
+<div class="app-shell">
+  <header class="topbar"><div class="breadcrumbs">ML LAB COMPANION <span>/</span> <strong>Learning workspace</strong></div><div class="topbar-actions"><span class="public-label"><i></i> Open access</span><button id="share-button" class="icon-button" title="Copy link to this experiment" aria-label="Copy experiment link"></button></div></header>
+  <div class="mobile-nav"><label for="mobile-experiment">Choose experiment</label><select id="mobile-experiment"></select></div>
+  <main id="workspace" tabindex="-1"><div class="loading-state"><span class="loader"></span><h1>Opening the workbench</h1><p>Loading verified experiments, programs and datasets.</p></div></main>
+  <footer class="app-footer"><span>ML Lab Companion <span class="footer-divider">/</span> Machine learning, step by step.</span><a href="assets/DATA_SOURCES.md" download>Dataset credits & provenance ↗</a></footer>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="app.js?v=brand1"></script>
+</body>
+</html>

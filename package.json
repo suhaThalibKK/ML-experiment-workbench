@@ -1,0 +1,10 @@
+{
+  "name": "ml-lab-companion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check dist/engines.js && node --check dist/learning.js && node --check dist/learning-math.js && node scripts/check-models.mjs && node scripts/check-learning.mjs && node --check dist/pyq.js && node --check dist/pyq-data.js && node --check dist/pyq-math.js && node scripts/check-pyq.mjs"
+  },
+  "description": "Learn machine learning through experiments, visual lessons and worked exam questions."
+}
